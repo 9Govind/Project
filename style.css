@@ -1,0 +1,170 @@
+body{
+    background-color: green;
+}
+#outer{
+    height: 1200px;
+    width: 1000px;
+    margin: 30px auto;
+}
+/*----------------------------------NavBar--------------------*/
+#navbar{
+    height: 50px;
+    width:100%;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+#nav{
+    display: flex;
+}
+#nav li{
+    padding:18px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+#nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 2s;
+}
+#nav li a:hover{
+    color:red;
+    transition: 1s;
+}
+#search{
+    height: 30px;
+    width: 250px;
+    border-radius: 15px;
+    margin-top: -15px;
+    margin-left: 60px;
+}
+#icon{
+    margin-left: -30px;
+    margin-bottom: -50px;
+    color: grey;
+}
+/*--------------Slider OR Shafa image----------*/
+#slider{
+    height:250px;
+    width:100%;
+    background-image: url('../imgs/sofa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:5px;
+}
+/*------------------------Main----------------*/
+#main{
+    height:730px;
+    width:100%;
+    margin-top:5px;
+	background-color:white;
+	border-radius: 0px 0px 20px 20px;
+}
+#mainl{
+    height: 100%;
+    width: 700px;
+    background-color: white;
+    border-radius: 0px 0px 0px 20px;
+    float: left;
+}
+#mainl h1{
+    padding-left: 20px;
+}
+#mainl p{
+    padding: 0px 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+#mainl span{
+    color: rgb(93, 252, 1);
+    text-decoration: underline;
+}
+#imgs{
+    height:150px;
+    width: 100%;
+}
+.pgs{
+    text-decoration: none !important;
+    color: black !important;
+    border: 1px solid green;
+    padding: 8px;
+    font-weight: bold;
+}
+/*-------------------Slidbar Menu-------------*/
+#mainr{
+    height: 100%;
+    width: 300px;
+    background-color: grey;
+    border-radius: 0px 0px 20px 0px;
+    float: right;
+}
+#mainr h2{
+    padding-left: 15px;
+}
+#mainr ul li{
+    list-style-type: none;
+    padding:10px;
+}
+#mainr p{
+    padding:5px 40px;
+}
+/*----------------------Footer-----------------*/
+#footer{
+    height:300px;
+    width:100%;
+    background-color:white;
+    margin-top:20px ;
+    border-radius: 20px;
+}
+.box{
+    width:31.3%;
+    height:230px;
+    float: left;
+    margin: 10px;
+}
+/*-------------------------FeedBAck-----------------*/
+.govind{
+	height:500px;
+	width:500px;
+	background-color:green;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5px;
+}
+.govind h1{
+    color: white;
+    padding-top: 40px;
+}
+.govind input{
+    margin: 5px;
+    width: 80%;
+    height: 7%;
+    border-radius: 8px;
+}
+.govind button{
+    margin: 5px;
+    width: 80%;
+    height: 7%;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+.govind div{
+    background-color: red;
+    height: 75px;
+    width:100%;
+    margin-top: 35px;
+    border-radius: 40px 40px 0px 0px ;
+}
+
+/*-------------------------- Login box --------------------------*/
+
+
+/*-------------------------- About Us ----------------------------*/
+
+/*-------------------------- Contact Us ---------------------------*/
